@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lab2-systemarkitektur:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6fc38c8c-9966-47d3-8e03-e64885bf7026" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WarehouseRequests.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Warehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/WarehouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptionmapper/InvalidProductStateExceptionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptionmapper/InvalidWarehouseOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interceptor/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interceptor/RequestLoggingHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DataMappingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WarehouseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WarehouseResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/entities/CategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/entities/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/WarehouseTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ntmI9hnHj42dqL62PcH8DU9VPQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.All in WarehouseRequests.executor": "Run",
+    "HTTP Request.WarehouseRequests | #1.executor": "Run",
+    "HTTP Request.WarehouseRequests | #2.executor": "Run",
+    "HTTP Request.WarehouseRequests | #3.executor": "Run",
+    "HTTP Request.WarehouseRequests | #4.executor": "Run",
+    "HTTP Request.WarehouseRequests | #5.executor": "Run",
+    "HTTP Request.WarehouseRequests | #6.executor": "Run",
+    "HTTP Request.WarehouseRequests | GET a request to get all the products with pagination.executor": "Run",
+    "HTTP Request.WarehouseRequests | GET a request to get the last two products of the total (12).executor": "Run",
+    "HTTP Request.WarehouseRequests | GET a request with all products in category Books.executor": "Run",
+    "HTTP Request.WarehouseRequests | GET a request with all products in category Electronics.executor": "Run",
+    "HTTP Request.WarehouseRequests | GET a request with the products that have id 1.executor": "Run",
+    "HTTP Request.WarehouseRequests | POST a new product.executor": "Run",
+    "HTTP Request.WarehouseRequests | Welcome message.executor": "Run",
+    "HTTP Request.generated-requests | #3.executor": "Run",
+    "HTTP Request.generated-requests | #4.executor": "Run",
+    "HTTP Request.generated-requests | #6.executor": "Run",
+    "JBoss/WildFly Server.Lab2.executor": "Run",
+    "JUnit.CategoryTest.executor": "Run",
+    "JUnit.ProductTest.executor": "Run",
+    "JUnit.WarehouseServiceTest.executor": "Run",
+    "JUnit.WarehouseTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/Hannas/utbildning/Java/lab3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "G:/Hannas/utbildning/Java/systemarkitektur/lab2-systemarkitektur/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propDebugger",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Hannas\utbildning\Java\systemarkitektur\lab2-systemarkitektur\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JBoss/WildFly Server.Lab2">
+    <configuration name="WarehouseRequests | GET a request with all products in category Books" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WarehouseRequests.http" index="5" requestIdentifier="GET a request with all products in category Books" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="WarehouseRequests | GET a request with all products in category Electronics" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WarehouseRequests.http" index="4" requestIdentifier="GET a request with all products in category Electronics" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="WarehouseRequests | GET a request with the products that have id 1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WarehouseRequests.http" index="4" requestIdentifier="GET a request with the products that have id 1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="WarehouseRequests | Welcome message" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WarehouseRequests.http" requestIdentifier="Welcome message" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="WarehouseRequests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WarehouseRequests.http" index="6" requestIdentifier="#6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Lab2" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Lab2" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <deployment>
+        <artifact name="lab2-systemarkitektur:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <output_file path="$PROJECT_DIR$/../../../../../OneDrive/Desktop/Log intellij" is_save="true" />
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55385" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="lab2-systemarkitektur:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.WarehouseRequests | #6" />
+      <item itemvalue="HTTP Request.WarehouseRequests | GET a request with all products in category Books" />
+      <item itemvalue="HTTP Request.WarehouseRequests | GET a request with all products in category Electronics" />
+      <item itemvalue="HTTP Request.WarehouseRequests | GET a request with the products that have id 1" />
+      <item itemvalue="HTTP Request.WarehouseRequests | Welcome message" />
+      <item itemvalue="JBoss/WildFly Server.Lab2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.WarehouseRequests | GET a request with all products in category Books" />
+        <item itemvalue="HTTP Request.WarehouseRequests | GET a request with all products in category Electronics" />
+        <item itemvalue="HTTP Request.WarehouseRequests | #6" />
+        <item itemvalue="HTTP Request.WarehouseRequests | GET a request with the products that have id 1" />
+        <item itemvalue="HTTP Request.WarehouseRequests | Welcome message" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fc38c8c-9966-47d3-8e03-e64885bf7026" name="Changes" comment="" />
+      <created>1729800665805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729800665805</updated>
+      <workItem from="1729800666863" duration="2949000" />
+      <workItem from="1729866115446" duration="247000" />
+      <workItem from="1729866429401" duration="721000" />
+      <workItem from="1729938918270" duration="391000" />
+      <workItem from="1729939327031" duration="10260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
