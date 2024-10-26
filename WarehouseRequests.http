@@ -1,0 +1,29 @@
+### Welcome message
+GET http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api
+
+### GET a request to get all the products with pagination
+GET http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api/products?page=1&size=10
+
+### GET a request to get the last two products of the total (12)
+GET http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api/products?page=2&size=10
+
+### GET a request with the product that have a specific id
+GET http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api/products/1
+
+### GET a request with all products in category Books
+GET http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api/products/categories/BOOKS
+
+### POST a new product
+POST http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api/products
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "category": "PETS",
+  "createdDate": "2024-09-30",
+  "id": "13",
+  "modifiedDate": "2024-09-30",
+  "name": "Dog food",
+  "rating": 3
+}
+
