@@ -14,7 +14,7 @@ with command "mvn clean install"
 4. **Start the wildfly server and deploy the war file.**
 
 
-5. **Make a local server with the localhost:**
+5. **Use a local server with the localhost:**
    http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/
 
 
