@@ -10,27 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc38c8c-9966-47d3-8e03-e64885bf7026" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarehouseRequests.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Warehouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/WarehouseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptionmapper/InvalidProductStateExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptionmapper/InvalidWarehouseOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interceptor/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interceptor/RequestLoggingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DataMappingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WarehouseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WarehouseResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/entities/CategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/entities/ProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/WarehouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +24,25 @@
       <list>
         <option value="HTTP Request" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HannaRosberg&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HannaRosberg/lab2-systemarkitektur.git&quot;,
+    &quot;accountId&quot;: &quot;f0b1f9e1-7973-4773-a0d7-40e9587e1b44&quot;
+  }
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -63,6 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.Dockerfile.executor": "Run",
     "HTTP Request.All in WarehouseRequests.executor": "Run",
     "HTTP Request.WarehouseRequests | #1.executor": "Run",
     "HTTP Request.WarehouseRequests | #2.executor": "Run",
@@ -99,7 +95,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propDebugger",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -108,7 +104,7 @@
       <recent name="G:\Hannas\utbildning\Java\systemarkitektur\lab2-systemarkitektur\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JBoss/WildFly Server.Lab2">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="WarehouseRequests | GET a request with all products in category Books" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WarehouseRequests.http" index="5" requestIdentifier="GET a request with all products in category Books" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -116,9 +112,6 @@
       <method v="2" />
     </configuration>
     <configuration name="WarehouseRequests | GET a request with the products that have id 1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WarehouseRequests.http" index="4" requestIdentifier="GET a request with the products that have id 1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="WarehouseRequests | Welcome message" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WarehouseRequests.http" requestIdentifier="Welcome message" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="WarehouseRequests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WarehouseRequests.http" index="6" requestIdentifier="#6" runType="Run single request">
@@ -197,21 +190,33 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.Dockerfile" />
       <item itemvalue="HTTP Request.WarehouseRequests | #6" />
       <item itemvalue="HTTP Request.WarehouseRequests | GET a request with all products in category Books" />
       <item itemvalue="HTTP Request.WarehouseRequests | GET a request with all products in category Electronics" />
       <item itemvalue="HTTP Request.WarehouseRequests | GET a request with the products that have id 1" />
-      <item itemvalue="HTTP Request.WarehouseRequests | Welcome message" />
       <item itemvalue="JBoss/WildFly Server.Lab2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="HTTP Request.WarehouseRequests | GET a request with all products in category Books" />
         <item itemvalue="HTTP Request.WarehouseRequests | GET a request with all products in category Electronics" />
         <item itemvalue="HTTP Request.WarehouseRequests | #6" />
         <item itemvalue="HTTP Request.WarehouseRequests | GET a request with the products that have id 1" />
-        <item itemvalue="HTTP Request.WarehouseRequests | Welcome message" />
       </list>
     </recent_temporary>
   </component>
@@ -236,10 +241,16 @@
       <workItem from="1729866429401" duration="721000" />
       <workItem from="1729938918270" duration="391000" />
       <workItem from="1729939327031" duration="10260000" />
+      <workItem from="1729976419478" duration="258000" />
+      <workItem from="1730045475681" duration="6781000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

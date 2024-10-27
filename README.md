@@ -18,10 +18,10 @@ with command "mvn clean install"
    http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/
 
 
-6. **Run the server and open the browser**
+6. **Run the server and open the explorer**
 
 
-7. **Documentation:**
+7. **Endpoints:**
    - http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api
    - http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api/products?page=1&size=10
    - http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api/products?page=2&size=10
@@ -45,3 +45,32 @@ with command "mvn clean install"
 
 
 9. **Update the browser with the page2 to see the updated product.**
+
+# Lab 3 system architecture
+
+**Open terminal**
+
+1. **Pull the image from docker:**
+```sh
+   docker pull hannarosberg/lab2-systemarkitektur
+   ```
+
+
+2. **Run the container:**
+```sh
+   docker run -p 8080:8080 hannarosberg/lab2-systemarkitektur:latest
+```
+
+3. **Access the application:**
+```sh
+   http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT
+```
+
+4. **Endpoints:**
+```sh
+   - http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api
+   - http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api/products?page=1&size=10
+   - http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api/products?page=2&size=10
+   - http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api/products/1
+   - http://localhost:8080/lab2-systemarkitektur-1.0-SNAPSHOT/api/products/categories/BOOKS
+```
